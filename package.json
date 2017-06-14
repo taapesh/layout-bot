@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "selenium": "java -jar -Dwebdriver.gecko.driver=./server/geckodriver ./server/selenium-server-standalone-3.0.1.jar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.1",
     "co": "^4.6.0",
-    "webdriverio": "^4.6.2"
+    "webdriverio": "^4.8.0"
   }
 }
